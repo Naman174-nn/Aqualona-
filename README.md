@@ -1,2 +1,2 @@
 # Aqualona-
-this is code for aqualona website
+this is code for aqualona website project
