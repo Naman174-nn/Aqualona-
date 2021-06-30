@@ -1,0 +1,673 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: rgba(179, 176, 176, 0.157);
+}
+
+#yatch-logo{
+    position: absolute;
+    top:35px;
+    left:50px;
+}
+#yatch-head{
+    font-family: monospace;
+    position: absolute;
+    top:90px;
+    left:45px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#yatch-head:hover{
+    color:orangered;
+    cursor: pointer;
+}
+
+#home-icon{
+    position: absolute;
+    left:45px;
+    top:25%;
+}
+
+#yatch-icon{
+    position: absolute;
+    left:45px;
+    top:35%;
+}
+
+#heart-icon{
+    position: absolute;
+    left:45px;
+    top:45%;
+}
+
+#bell-icon{
+    position: absolute;
+    left:45px;
+    top:55%;
+}
+
+#information-icon{
+    position: absolute;
+    left:45px;
+    top:65%;
+}
+
+#home-heading{
+    position: absolute;
+    left: 89px;
+    top: 177px;
+    font-family:'roboto', monospace;
+    font-weight: bold;
+}
+#home-heading:hover{
+    color:hotpink;
+    cursor: pointer;
+}
+
+#yatch-heading{
+    position: absolute;
+    left: 87px;
+    top: 252px;
+    font-family:'roboto', monospace;
+    font-weight: bold;
+}
+#yatch-heading:hover{
+    color:hotpink;
+    cursor: pointer;
+}
+
+#favorites-heading{
+    position: absolute;
+    left: 86px;
+    top: 326px;
+    font-family:'roboto', monospace;
+    font-weight: bold;
+}
+#favorites-heading:hover{
+    color:hotpink;
+    cursor: pointer;
+}
+
+#notifications-heading{
+    position: absolute;
+    left: 86px;
+    top: 403px; 
+    font-family:'roboto', monospace;
+    font-weight: bold;
+}
+#notifications-heading:hover{
+    color:hotpink;
+    cursor: pointer;
+}
+
+
+#help-heading{
+    position: absolute;
+    left: 89px;
+    top: 478px;
+    font-family:'roboto', monospace;
+    font-weight: bold;
+}
+#help-heading:hover{
+    color:hotpink;
+    cursor: pointer;
+}
+
+#profile{
+    /* border:2px solid black; */
+    width: 250px;
+    height:150px;
+    box-shadow: 5px 5px 2px gray;
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+}
+#profile:hover{
+    box-shadow: 7px 7px 3px gray;
+    
+}
+
+#profile-image{
+    border-radius: 50px;
+    position: absolute;
+    top: 0px;
+    left:100px
+}
+
+#profile-heading{
+    position: absolute;
+    left: 60px;
+    top: 21px;
+    font-size: 20px;
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+
+#profile-email{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+    position: absolute;
+    left: 60px;
+    top: 65px;
+}
+
+#rating{
+   color: orangered;
+   position: absolute;
+   left: 114px;
+   top: 89px;
+}
+
+#profile-rating{
+    width:30px;
+    /* border: 2px solid black; */
+    background-color: whitesmoke;
+    display: inline;
+    border-radius: 10px;
+    position: absolute;
+    left: 85px;
+    top: 93px;
+    
+}
+
+
+#right-div{
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 742px;
+    width: 1259px;
+    position: absolute;
+    left: 326px;
+    top: 3px;
+    box-shadow: -5px 5px 2px 2px grey;
+    /* background-color: rgba(235, 205, 210, 0.664); */
+}
+
+#previous-icon{
+    position: absolute;
+    top:50px;
+    left:70px
+}
+
+#previous-icon:hover{
+    cursor: pointer;
+   
+}
+
+#heading{
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 40px;
+    margin-top: 125px;
+    margin-left: 75px;
+}
+#heading:hover{
+    color: hotpink;
+    cursor: pointer;
+
+}
+
+
+#text-1{
+    /* font-weight: bold; */
+    border: border 2px solid white;
+    background-color: gray;
+    position: absolute;
+    top: 179px;
+    left: 75px; 
+    display: inline;
+    border-radius: 20px;
+    
+
+
+ }
+
+ #text-2{
+     font-weight: bold;
+     font-family: monospace;
+     position: absolute;
+     top: 176px;
+    left: 148px;
+    font-size: 16px;
+
+
+ }
+
+ #rating-2{
+    font-size: 40px;
+    font-weight: bolder;
+    position: absolute;
+    top: 91px;
+    left: 475px;
+
+ }
+
+ #star{
+    font-size: 23px;
+    position: absolute;
+    color: orangered;
+    top: 126px;
+    left: 525px;
+
+
+ }
+
+
+ #review-number{
+         font-weight: bolder;
+    position: absolute;
+    top: 167px;
+    left: 468px;
+
+ }
+
+
+ #section-1{
+    height: 129px;
+    width: 319px;
+    border: 2px solid black;
+    position: absolute;
+    top: 268px;
+    left: 70px;
+    border-radius: 18px;
+    box-shadow: -5px -5px 5px 2px grey ;
+
+}
+
+#section-1:hover{
+   box-shadow: -10px -10px 7px 4px grey ;
+   cursor: pointer;
+
+
+}
+ #section-1 p{
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 172px;
+    margin-top: 13px;
+}
+
+#video{
+    height: 123px;
+    /* margin-top: 0px; */
+    top: 1px;
+    width: 137px;
+    position: absolute;
+    left: 9px;
+}
+
+
+
+ #section-2{
+    height: 129px;
+    width: 319px;
+    border: 2px solid black;
+    position: absolute;
+    top: 432px;
+    left: 70px;
+    border-radius: 18px;
+    background-color: #2196f3;
+    box-shadow: -5px -5px 5px 2px grey ;
+
+}
+
+#section-2:hover{
+   box-shadow: -10px -10px 7px 4px grey ;
+   cursor: pointer;
+
+
+}
+#help-icon{
+    height: 93px;
+    width: 93px;
+    position: absolute;
+    top: 15px;
+    left: 18px;
+
+}
+
+#help{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: -8px;
+    font-size: 22px;
+    right: 40px;
+
+}
+
+#text-3{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 37px;
+    font-size: 12px;
+    right: 5px;
+
+}
+
+#help-link{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 88px;
+    font-size: 14px;
+    right: 67px;
+
+}
+
+ 
+
+ #section-3{
+    height: 296px;
+    width: 210px;
+    border: 2px solid black;
+    position: absolute;
+    top: 269px;
+    left: 426px;
+    border-radius: 18px;
+    box-shadow: 5px -5px 5px 2px grey ;
+
+ }
+
+ #section-3:hover{
+    box-shadow: 10px -10px 7px 4px grey ;
+    cursor: pointer;
+
+
+ }
+
+ #text-4{
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: -13px;
+    font-size: 22px;
+    right: 32px;
+}
+
+ 
+ #text-5{
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 96px;
+    font-size: 22px;
+    right: 57px;
+
+ }
+ #text-6{
+    color: gray;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 126px;
+    font-size: 22px;
+    right: 92px;
+
+ }
+ #text-7{
+    color: gray;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 163px;
+    font-size: 14px;
+    right: -27px;
+    margin-left: 36px;
+
+
+ }
+ #car-icon{
+    height: 83px;
+    width: 81px;
+    position: absolute;
+    top: 37px;
+    left: 61px;
+
+ }
+ #plus-icon{
+    height: 56px;
+    width: 57px;
+    position: absolute;
+    top: 221px;
+    left: 69px;
+
+ }
+
+#section-4{
+    width: 550px;
+    height: 712px;
+    position: absolute;
+    border: 2px solid black;
+    top: 10px;
+    right: 20px;
+    border-radius: 20px;
+    background-color: #2196f3;
+}
+
+#text-8{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 8px;
+    font-size: 25px;
+    right: 326px;
+
+}
+#text-9{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 69px;
+    font-size: 17px;
+    right: 333px;
+
+}
+#text-10{
+    color: hotpink;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 90px;
+    font-size: 21px;
+    right: 333px;
+
+}
+#text-11{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 178px;
+    font-size: 18px;
+    left: 36px;
+
+}
+#text-12{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 193px;
+    font-size: 29px;
+    left: 34px;
+
+}
+#text-13{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 271px;
+    font-size: 18px;
+    left: 36px;
+
+
+}
+#text-14{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 290px;
+    font-size: 29px;
+    left: 39px;
+
+}
+#text-last{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 365px;
+    font-size: 18px;
+    left: 34px;
+}
+
+#boat-icon{
+    height: 450px;
+    width: 214px;
+    position: absolute;
+    top: 121px;
+    right: 69px;
+
+}    
+
+
+
+#text-15{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 385px;
+    font-size: 26px;
+    left: 36px;
+
+}
+#text-16{
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 582px;
+    font-size: 18px;
+    left: 96px;
+
+}
+#text-17{
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    top: 582px;
+    font-size: 18px;
+    left: 265px;
+
+}
+#text-18{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    bottom: 27px;
+    font-size: 26px;
+    left: 95px;
+
+}
+#text-19{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    position: absolute;
+    bottom: 27px;
+    font-size: 26px;
+    left: 265px;
+
+}
+
+#share-icon{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 26px;
+    left: 400px;
+
+}
+
+#add{
+    height: 100px;
+    width: 433px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 24px;
+    left: 65px;
+    border-radius: 20px;
+    
+}
+#downbar-icon{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 125px;
+
+}
+
+#downbar1-icon{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 295px;
+
+}
+#heart1-icon{
+    
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 29px;
+    left: 468px;
+
+
+}
+
+#plus1-icon{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 15px;
+    left: 344px;
+
+}
+#plus-icon:hover{
+    cursor:pointer;
+  
+
+}
+
+#horizontal{
+    width: 0px;
+    height: 70px;
+    position: absolute;
+    bottom: 15px;
+    color: black;
+    border: 2px solid black;
+    left: 171px;
+}
+
+
